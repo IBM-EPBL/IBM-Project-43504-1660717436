@@ -1,0 +1,26 @@
+body, html {
+    height: 50%;
+}
+.hero-image {
+  background-image: url("resumeimage.jpg");
+
+
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  border-radius: 50%;
+    height: 300px;
+    width: 250px;
+}
+.hero-bg{
+background-color: black;
+}
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: orange;
+}
