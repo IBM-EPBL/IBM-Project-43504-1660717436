@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="Stylesheet" href="signup.css">
+</head>
+<body>
+    <nav>
+		<ul class="navigation">
+			<div class="brand"><img src="Logo.png" alt="LOGO" /> 
+				<i onclick="navToggle()" id="nav-icon" class="fa fa-navicon" style="font-size:24px"></i> 
+			</div>
+
+			<div id="toggle" class="nav-container">
+				<a class="left" href="news.html"><li>Go To Home Page</li></a>
+			</div>
+		</ul>
+	</nav>
+<!-- NAVIGATION END HERE -->
+
+<section class="form">
+<div class="center">
+	<h1>Join Our <b style="color: #ffffff ;">" NEWS TRACKING APPLICATION "</b> To Know What's Happening in this World</h1>
+	<hr width="20%" style="border: 1px solid #eaff00;">
+	<br>
+
+	<form action="">
+		<input class="name-surname" type="text" name="name" placeholder="First Name">
+		<input class="name-surname" type="text" name="surname" placeholder="Surname"><br>
+		<input type="text" name="email" placeholder="Email Address"><br>
+          <div class="checkbox">
+			<h3 style="color: #ffffff ;"><span>[ Select Your favourite Catagory What You Want..! ]</span></h3>
+            <input type="checkbox" name="Categories" id="p1">
+            <label for="p1">World 360°</label>
+            <input type="checkbox" name="Categories" id="p2">
+            <label for="p2">Weather 360°</label><br>
+            <input type="checkbox" name="Categories" id="p3">
+            <label for="p3">Sports</label>
+            <input type="checkbox" name="Categories" id="p4">
+            <label for="p4">Tech - World</label><br>
+            <input type="checkbox" name="Categories" id="p5">
+            <label for="p5">Inside - TN</label> 
+			<input type="checkbox" name="Categories" id="p6">
+            <label for="p6">Trending Today</label> <br><br>
+         </div>
+         <br> <input type="password" name="password" placeholder="Password (8-16 Characters)"><br>
+		<input type="password" name="conf_password" placeholder="Confirm Password"><br>
+	
+		<button formaction="./Login/news.html">J O I N - N O W</button>
+		<p>Already an Existing User? <a href="login.html">Login Here</a></p>
+	</form>
+</div>
+
+</section>
+
+<!-- FOOTER STARTS HERE -->
+
+	<footer>
+		<div class="footer_container">
+			<p class="bottom_text">News Tracker Application™ - Copyright © 2022 All Rights Reserved.</p>
+		</div>
+	</footer>
+
+<!-- FOOTER ENDS HERE -->
+</body>
+</html>
